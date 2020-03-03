@@ -1,0 +1,3 @@
+language = "javascript"
+  run = "nodejs src/random/addLinkedListNums.js"
+  
