@@ -1,5 +1,5 @@
 # code-solutions
-This repo contains my original solutions to programming challenges found online and in books.
+This repo contains my original solutions to programming challenges found online, in books and problems given by different comapnies like amazon, facebook, google, twiter etc.
 
 ### https://app.codesignal.com
 ### https://leetcode.com/
