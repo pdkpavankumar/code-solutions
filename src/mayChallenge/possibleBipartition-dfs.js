@@ -53,6 +53,5 @@ var possibleBipartition = function(N, dislikes) {
             }
         }
     }
-    
     return true;
 };
