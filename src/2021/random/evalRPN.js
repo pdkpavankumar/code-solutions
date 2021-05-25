@@ -40,13 +40,11 @@
 var evalRPN = function(tokens) {
     var stack = [];
     for(var i=0; i<tokens.length; i++) {
-        console.log(stack);
         if(!isNaN(tokens[i])) {
             stack.push(Number(tokens[i]));
         } else {
             var num1 = stack.pop();
             var num2 = stack.pop();
-            console.log({num1, num2});
             switch(tokens[i]) {
                 case '+':
                     stack.push(num1 + num2); break;
