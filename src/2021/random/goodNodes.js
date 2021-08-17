@@ -54,7 +54,7 @@ var getNode = function(node, max) {
             max = node.val;
             count++;
         }
-         getNode(node.left, max);
+        getNode(node.left, max);
         getNode(node.right, max);
     }
 }
